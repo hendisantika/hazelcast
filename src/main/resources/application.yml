@@ -1,0 +1,10 @@
+spring:
+  hazelcast:
+    config: classpath:config/hazelcast.xml
+
+logging:
+  pattern:
+    console: "%-5level - %msg%n"
+  level:
+    - error
+    - com.hendisantika=trace’
